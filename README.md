@@ -49,9 +49,10 @@ flowchart TD
     J -->|Status: REVOKED| R[Read-Only UI + 'Access Revoked' Badge]
     R --> S[Hide/Disable 'Generate Proof' Button]
 
-    classDef admin fill:#f9d0c4,stroke:#333,stroke-width:2px;
-    classDef person fill:#c4e1f9,stroke:#333,stroke-width:2px;
-    classDef action fill:#d4f9c4,stroke:#333,stroke-width:2px;
+    classDef admin fill:#9b2c2c,color:#fff,stroke:#feb2b2,stroke-width:2px;
+    classDef person fill:#2c5282,color:#fff,stroke:#bee3f8,stroke-width:2px;
+    classDef action fill:#276749,color:#fff,stroke:#c6f6d5,stroke-width:2px;
+    classDef default fill:#4a5568,color:#fff,stroke:#e2e8f0,stroke-width:2px;
 
     class D,E,F,G,H,F1,F2,G1,G2 admin;
     class I,J,K,L,M,N,O,P,Q,R,S person;
